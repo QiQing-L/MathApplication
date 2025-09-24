@@ -56,6 +56,9 @@ public class MathApp {
 
         // Question 6:
         //Find and display the absolute (positive) value of a variable after it is set to -3.8
+        // abs(x) : Returns the absolute value of x
+        double num1 = -3.8;
+        System.out.println("The absolute (positive) value of " + num1 + " is " + Math.abs(num1) + ".");
 
 
 
