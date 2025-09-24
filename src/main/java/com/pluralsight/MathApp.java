@@ -42,6 +42,9 @@ public class MathApp {
         double number1SqRoot =Math.sqrt(number1);
         System.out.println("The square root of " + number1 + " is " + number1SqRoot + ".");
 
+        // Question 5:
+        //Find and display the distance between the points (5, 10) and (85, 50)
+        //Distance Formula: d = √[(x₂ - x₁)² + (y₂ - y₁)²]
 
 
     }
