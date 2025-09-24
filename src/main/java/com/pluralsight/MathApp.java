@@ -54,6 +54,10 @@ public class MathApp {
         double distance = Math.sqrt(dForx + dFory);
         System.out.println("The distance between the points (5, 10) and (85, 50) is " + distance + ".");
 
+        // Question 6:
+        //Find and display the absolute (positive) value of a variable after it is set to -3.8
+
+
 
     }
 
