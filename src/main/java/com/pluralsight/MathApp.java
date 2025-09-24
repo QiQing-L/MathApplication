@@ -45,6 +45,14 @@ public class MathApp {
         // Question 5:
         //Find and display the distance between the points (5, 10) and (85, 50)
         //Distance Formula: d = √[(x₂ - x₁)² + (y₂ - y₁)²]
+        double x1 = 5;
+        double x2 = 85;
+        double y1 = 10;
+        double y2 = 50;
+        double dForx = Math.pow((x1 - x2), 2);
+        double dFory = Math.pow((y1 - y2), 2);
+        double distance = Math.sqrt(dForx + dFory);
+        System.out.println("The distance between the points (5, 10) and (85, 50) is " + distance + ".");
 
 
     }
