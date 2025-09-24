@@ -5,16 +5,21 @@ public class MathApp {
 
         // step 1:
         // Question 1:
+        //Determine whose (Bob and Gary) salary is greater using Math.max()
+        // and store the answer in highestSalary.
+
         double bobSalary, garySalary;
         double highestSalary;
-        double Bob, Gary;
-        bobSalary = 50_000;
-        garySalary = 60_000;
-        Bob = bobSalary;
-        Gary = garySalary;
-        highestSalary = Math.max(bobSalary,garySalary);
+        bobSalary = 50_000.90;
+        garySalary = 40_000.98;
+        highestSalary = Math.max(garySalary , bobSalary);
+        String highestSalaryPerson;
+        if(highestSalary == bobSalary) {
+            highestSalaryPerson = "Bob";
+        } else {
+            highestSalaryPerson = "Gary";}
+        System.out.println("The highest salary is $" + highestSalary + ", " + highestSalaryPerson + " have the highest salary.");
 
-        System.out.println("The highest salary is " + highestSalary);
 
     }
 
