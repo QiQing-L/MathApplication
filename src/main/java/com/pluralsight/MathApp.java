@@ -37,8 +37,8 @@ public class MathApp {
 
         double radius = 7.25;
         double radiusSquare = Math.pow(radius,2);
-        double area = p * radiusSquare;
-
+        double area = Math.PI * radiusSquare;
+        System.out.println("The area of the circle is " + area + ".");
 
 
     }
