@@ -5,7 +5,7 @@ public class MathApp {
 
         // step 1:
         // Question 1:
-        //Determine whose (Bob and Gary) salary is greater using Math.max()
+        //Determine whose (Bob or Gary) salary is greater using Math.max()
         // and store the answer in highestSalary.
 
         double bobSalary, garySalary;
@@ -20,6 +20,16 @@ public class MathApp {
             highestSalaryPerson = "Gary";}
         System.out.println("The highest salary is $" + highestSalary + ", " + highestSalaryPerson + " have the highest salary.");
 
+        // Question 2:
+        //Find and display the smallest of two variables named carPrice and
+        //truckPrice. Set the variables to any value you want.
+
+        double carPrice, truckPrice;
+        carPrice = 80_000;
+        truckPrice = 100_000;
+        double smallestPrice;
+        smallestPrice = Math.min(carPrice, truckPrice);
+        System.out.println("The smallest price is $" + smallestPrice + ".");
 
     }
 
