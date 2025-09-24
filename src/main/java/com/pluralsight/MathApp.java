@@ -10,7 +10,7 @@ public class MathApp {
 
         double bobSalary, garySalary;
         double highestSalary;
-        bobSalary = 50_000.90;
+        bobSalary = 30_000.90;
         garySalary = 40_000.98;
         highestSalary = Math.max(garySalary , bobSalary);
         String highestSalaryPerson;
