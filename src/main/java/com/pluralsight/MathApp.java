@@ -62,6 +62,10 @@ public class MathApp {
 
         // Question 7:
         // Find and display a random number between 0 and 1
+        // found random(): Returns a random number between 0 and 1, works on doubles.
+        double ranNum =Math.random();
+        System.out.println("Here will display a random number between 0 and 1: " + ranNum);
+
 
 
         // Question 8:
