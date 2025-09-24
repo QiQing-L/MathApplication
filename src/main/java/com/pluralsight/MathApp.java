@@ -60,6 +60,13 @@ public class MathApp {
         double num1 = -3.8;
         System.out.println("The absolute (positive) value of " + num1 + " is " + Math.abs(num1) + ".");
 
+        // Question 7:
+        // Find and display a random number between 0 and 1
+
+
+        // Question 8:
+        // Calculate how many minutes are in 24 days, use a variable for each value you
+        //calculate with. BONUS: How many milliseconds?
 
 
     }
