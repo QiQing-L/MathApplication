@@ -63,14 +63,24 @@ public class MathApp {
         // Question 7:
         // Find and display a random number between 0 and 1
         // found random(): Returns a random number between 0 and 1, works on doubles.
-        double ranNum =Math.random();
+        double ranNum = Math.random();
         System.out.println("Here will display a random number between 0 and 1: " + ranNum);
-
 
 
         // Question 8:
         // Calculate how many minutes are in 24 days, use a variable for each value you
         //calculate with. BONUS: How many milliseconds?
+        final int minInHr = 60;
+        final int hourInDay = 24;
+        final int secInMin = 60;
+        final int millSecInSec = 1000;
+        long numOfDays = 24;
+        long totalMinInDays = (minInHr * hourInDay * numOfDays);
+        long totalMillSecInDays = (totalMinInDays * secInMin * millSecInSec);
+        System.out.println("There are " + totalMinInDays + " minutes in " + numOfDays + " days, and "
+                + totalMillSecInDays + " milliseconds in " + numOfDays + " days.");
+
+
 
 
     }
