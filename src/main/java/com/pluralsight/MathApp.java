@@ -75,8 +75,11 @@ public class MathApp {
         final int secInMin = 60;
         final int millSecInSec = 1000;
         long numOfDays = 24;
+        // calculate total minutes in 24 days:
         long totalMinInDays = (minInHr * hourInDay * numOfDays);
+        // Bonus: calculate milliseconds in 24 days:
         long totalMillSecInDays = (totalMinInDays * secInMin * millSecInSec);
+
         System.out.println("There are " + totalMinInDays + " minutes in " + numOfDays + " days, and "
                 + totalMillSecInDays + " milliseconds in " + numOfDays + " days.");
 
